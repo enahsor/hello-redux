@@ -1,6 +1,6 @@
 
 ## What is this project?
-This is a ***React*** app built to host my Redux projects.  
+This is a ***React*** app built to host my ***Redux*** projects.  
 
 ## Tools?
 
