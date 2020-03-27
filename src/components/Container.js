@@ -10,7 +10,8 @@ class Container extends React.Component{
             <div className="container">
                 <img src={friends} alt="SVG of friends interacting">
                 </img>
-                <h1 className="underline">{this.props.tech} Test</h1>
+                <h1 className="underline">
+                    <span className="highlight">{this.props.tech}</span> Test</h1>
             </div>
         );
     }
