@@ -1,5 +1,5 @@
 import React from "react";
-import friends from "../images/social_friends.svg";
+import donut from "../images/donut.svg";
 
 class Container extends React.Component{
 
@@ -8,9 +8,9 @@ class Container extends React.Component{
 
         return(
             <div className="container">
-                <img src={friends} alt="SVG of friends interacting">
+                <img src={donut} alt="SVG of friends interacting">
                 </img>
-                <h1 className="underline">
+                <h1>
                     <span className="highlight">{this.props.tech}</span> Test</h1>
             </div>
         );
